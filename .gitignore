@@ -1,0 +1,12 @@
+node_modules
+.next
+.env
+.env.*
+.firebase
+serviceAccount*.json
+backups
+BACKUP_*
+*.zip
+*.tar.gz
+*.log
+tsconfig.tsbuildinfo

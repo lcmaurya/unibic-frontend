@@ -1,0 +1,24 @@
+"use client";
+
+import { useTrustScore } from "@/app/hooks/useTrustScore";
+
+export default function TrustTimeline() {
+  const trust = useTrustScore();
+
+  if (!trust.flags?.length) {
+    return (
+      <p className="text-sm text-gray-400">No trust activity yet</p>
+    );
+  }
+
+  return (
+    <ul className="mt-2 text-sm space-y-1">
+      {trust.flags.map((f, i) => (
+        <li key={i} className="flex justify-between">
+          <span>{f}</span>
+          <span className="text-green-600">✓</span>
+        </li>
+      ))}
+    </ul>
+  );
+}

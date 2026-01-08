@@ -1,0 +1,94 @@
+"use client";
+
+import VideoUploader from "./components/VideoUploader";
+import VideoPreview from "./components/VideoPreview";
+import { useState } from "react";
+const [video, setVideo] = useState<string | null>(null);
+const [locked, setLocked] = useState(false);
+import ImageUploader from "./components/ImageUploader";
+import ImagePreview from "./components/ImagePreview";
+
+export default function DealsRoom() {
+  const [messages] = useState<any[]>([]);
+const [video, setVideo] = useState<string | null>(null);
+const [locked, setLocked] = useState(false);
+  const [image, setImage] = useState<string | null>(null);
+  const [video, setVideo] = useState<string | null>(null);
+const [video, setVideo] = useState<string | null>(null);
+const [locked, setLocked] = useState(false);
+  const [text, setText] = useState("");
+const [video, setVideo] = useState<string | null>(null);
+const [locked, setLocked] = useState(false);
+
+  return (
+    <main className="max-w-md mx-auto p-4">
+      <h2 className="text-xl font-semibold mb-1">💬 Deals Room</h2>
+      <p className="text-sm text-gray-500 mb-3">
+        Client ↔ Service Provider discussion area
+      </p>
+
+      {/* MEDIA BUTTONS */}
+      <div className="flex gap-3 mb-3">
+        <ImageUploader
+          onSelect={(file) => setImage(URL.createObjectURL(file))}
+        />
+
+        <button className="bg-blue-600 text-white px-4 py-2 rounded-full">
+          Audio
+        </button>
+
+        <button className="bg-purple-600 text-white px-4 py-2 rounded-full">
+          Video
+        </button>
+      </div>
+
+      {/* CHAT BOX */}
+      <div className="border rounded-lg bg-white min-h-[260px] flex items-center justify-center mb-3 overflow-hidden">
+        {image ? (
+          <ImagePreview
+            src={image}
+            onDelete={() => setImage(null)}
+          />
+        ) : (
+          <span className="text-gray-400 text-sm">
+            {video ? <VideoPreview video={video} clear={()=>setVideo(null)} locked={locked} /> : {video ? <VideoPreview video={video} clear={() => setVideo(null)} locked={locked} /> : "No messages yet"}}
+          </span>
+        )}
+      </div>
+
+      {/* INPUT */}
+      <div className="flex gap-2 mb-3">
+        <input
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+          placeholder="Type your message..."
+          className="flex-1 border rounded-full px-4 py-2 text-sm"
+        />
+        <button
+          onClick={() => {
+            setText("");
+            setImage(null);
+          }}
+          className="bg-green-600 text-white px-4 py-2 rounded-full"
+        >
+          Send
+        </button>
+      </div>
+
+      {/* ACTIONS */}
+      <div className="grid grid-cols-2 gap-2 mb-2">
+        <button className="border rounded-lg py-2">Report Issue</button>
+        <button className="border rounded-lg py-2">Exit Deal</button>
+      </div>
+
+      <div className="grid grid-cols-2 gap-2">
+        <button className="bg-green-600 text-white rounded-lg py-2">
+          Mark as Done
+        </button>
+        <button className="bg-red-600 text-white rounded-lg py-2">
+          Cancel Deal
+        </button>
+      </div>
+    </main>
+  );
+}

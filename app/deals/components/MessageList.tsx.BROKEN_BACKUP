@@ -1,0 +1,40 @@
+type Message = {
+  id: number;
+  text: string;
+  sender: "client" | "provider";
+  time?: string;
+};
+
+export default function MessageList({ messages }: { messages: Message[] }) {
+  return (
+  if (!messages || messages.length === 0) {
+    return (
+      <div className="flex-1 flex items-center justify-center text-sm text-gray-400">
+        No messages yet. Start the conversation.
+      </div>
+    );
+  }
+
+    <div className="flex-1 overflow-y-auto space-y-2 mb-3">
+      {messages.map((msg) => (
+        <div
+          key={msg.id}
+          className={`flex ${msg.sender === "provider" ? "justify-end" : "justify-start"}`}
+        >
+          <div
+            className={`max-w-[75%] px-3 py-2 rounded-lg text-sm shadow
+              ${msg.sender === "provider"
+                ? "bg-green-600 text-white rounded-br-none"
+                : "bg-gray-100 text-black rounded-bl-none"
+              }`}
+          >
+            <div>{msg.text}</div>
+            <div className="text-[10px] opacity-70 mt-1 text-right">
+              {msg.time || "just now"}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}

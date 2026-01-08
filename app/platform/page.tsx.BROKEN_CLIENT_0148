@@ -1,0 +1,56 @@
+import TrustTimeline from "@/app/components/TrustTimeline";
+import MediaFeed from "@/app/components/MediaFeed";
+
+"use client";
+import TrustTimeline from "@/app/components/TrustTimeline";
+import MediaFeed from "@/app/components/MediaFeed";
+
+import { platformEngine } from "@/app/lib/platformEngine";
+import { platformState } from "@/app/lib/platform/state";
+import { getDealState } from "@/app/lib/platform/dealStore";
+import { useTrustScore } from "@/app/hooks/useTrustScore";
+import TrustBadge from "@/app/deals/components/TrustBadge";
+import UploadProgress from "@/app/deals/components/UploadProgress";
+
+export default function PlatformDashboard() {
+  const trust = useTrustScore();
+  const engine = platformEngine.init();
+  const deal = getDealState();
+
+  return (
+    <main className="mx-auto max-w-md p-4 min-h-screen bg-[#f1fef5]">
+      <h1 className="text-xl font-semibold mb-1">Platform Dashboard</h1>
+      <p className="text-sm text-gray-600 mb-4">
+        Unified system overview (live wiring)
+      </p>
+
+      {/* ENGINE */}
+      <section className="bg-white rounded-xl p-3 mb-3 shadow">
+        <h2 className="font-medium mb-1">Engine</h2>
+        <p>Status: {engine.status}</p>
+        <p>Mode: {engine.mode}</p>
+        <p>Firebase: {engine.firebase}</p>
+      </section>
+
+      {/* DEAL */}
+      <section className="bg-white rounded-xl p-3 mb-3 shadow">
+        <h2 className="font-medium mb-1">Deal</h2>
+        <p>Active: {deal.active ? "YES" : "NO"}</p>
+        <p>Status: {deal.status}</p>
+      </section>
+
+{/* TRUST */}
+<section className="bg-white rounded-xl p-3 mb-3 shadow">
+<h2 className="font-medium mb-2">Trust</h2>
+<TrustBadge score={trust.score} />
+<TrustTimeline events={trust.flags || []} />
+</section>
+
+{/* MEDIA */}
+<section className="bg-white rounded-xl p-3 shadow">
+<h2 className="font-medium mb-2">Media Feed</h2>
+<MediaFeed items={[]} />
+</section>
+    </main>
+  );
+}

@@ -1,0 +1,24 @@
+"use client";
+import React from "react";
+
+import TrustRing from "@/components/dashboard/TrustRing";
+
+export default function DashboardPage() {
+  const [trustScore, setTrustScore] = React.useState(0);
+
+  React.useEffect(() => {
+
+    fetch("/api/trust").then(r => r.json()).then(d => setTrustScore(d.score));
+
+  }, []);
+
+  return (
+    <div className="p-4 bg-green-50 min-h-screen space-y-4">
+
+      <div className="bg-green-100 rounded-xl p-4">
+        <TrustRing score={trustScore} max={1000} label="--" />
+      </div>
+
+    </div>
+  );
+}

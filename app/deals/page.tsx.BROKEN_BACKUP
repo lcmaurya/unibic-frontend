@@ -1,0 +1,77 @@
+import ImageUploader from "@/app/deals/components/ImageUploader";
+
+"use client";
+
+import { useState, useEffect, useRef } from "react";
+
+export default function DealsRoom() {
+  const [messages, setMessages] = useState<any[]>([]);
+  const [text, setText] = useState("");
+  const bottomRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
+
+  const sendText = () => {
+    if (!text.trim()) return;
+    setMessages([...messages, { id: Date.now(), text }]);
+    setText("");
+  };
+
+  return (
+    <main className="max-w-md mx-auto p-4">
+
+      <h2 className="text-xl font-semibold mb-1">💬 Deals Room</h2>
+      <p className="text-sm text-gray-500 mb-3">
+        Client ↔ Service Provider discussion area
+      </p>
+
+      {/* MEDIA STRIP (TOP) */}
+      <div className="grid grid-cols-3 gap-2 mb-3">
+        <ImageUploader />
+        <button className="bg-blue-600 text-white py-2 rounded-xl font-medium shadow">
+          Audio
+        </button>
+        <button className="bg-purple-600 text-white py-2 rounded-xl font-medium shadow">
+          Video
+        </button>
+      </div>
+
+      {/* CHAT BOX */}
+      <div className="border rounded-xl bg-white min-h-[320px] p-3 flex items-center justify-center text-gray-400 mb-3">
+        {messages.length === 0 ? "No messages yet" : "Messages"}
+        <div ref={bottomRef} />
+      </div>
+
+      {/* INPUT ROW */}
+      <div className="flex gap-2 mb-3">
+        <input
+          className="flex-1 border rounded-xl px-3 py-2"
+          placeholder="Type your message..."
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+        />
+        <button
+          onClick={sendText}
+          className="bg-green-600 text-white px-4 rounded-xl font-medium"
+        >
+          Send
+        </button>
+      </div>
+
+      {/* ACTION BUTTONS */}
+      <div className="grid grid-cols-2 gap-2">
+        <button className="border rounded-lg py-2">Report Issue</button>
+        <button className="border rounded-lg py-2">Exit Deal</button>
+        <button className="bg-green-600 text-white rounded-lg py-2">
+          Mark as Done
+        </button>
+        <button className="bg-red-600 text-white rounded-lg py-2">
+          Cancel Deal
+        </button>
+      </div>
+
+    </main>
+  );
+}

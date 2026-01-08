@@ -1,0 +1,30 @@
+import './globals.css';
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className="bg-green-50">
+        {/* TOP BAR */}
+        <header className="bg-white px-4 py-3 shadow-sm flex justify-between">
+          <span className="font-bold">UNIBIC TRUST</span>
+          <span className="text-sm text-gray-500">Demo Mode</span>
+        </header>
+
+        {/* PAGE CONTENT */}
+        <main className="pb-20">{children}</main>
+
+        {/* BOTTOM NAV */}
+        <nav className="fixed bottom-0 left-0 right-0 bg-white border-t flex justify-around py-2 text-sm">
+          <a href="/" className="text-green-600">Home</a>
+          <a href="/skills">Skills</a>
+          <a href="/community">Community</a>
+          <a href="/profile">Profile</a>
+        </nav>
+      </body>
+    </html>
+  );
+}

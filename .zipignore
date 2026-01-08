@@ -1,0 +1,11 @@
+node_modules
+.next
+backups
+.backups
+.firebase
+.env
+.env.*
+serviceAccount*.json
+FULL_BACKUP_*
+*.tar.gz
+*.log

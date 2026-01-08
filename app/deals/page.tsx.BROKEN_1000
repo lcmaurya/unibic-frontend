@@ -1,0 +1,5 @@
+"use client";
+
+import { dealRequested, clearDealRequest } from "@/lib/dealState";
+import { useState, useEffect, useRef } from "react";
+

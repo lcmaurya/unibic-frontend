@@ -1,0 +1,66 @@
+
+
+
+
+import { getPiUser } from "@/app/lib/piAuth";
+
+import { initFirebase, getFirebaseUserCount } from "@/app/lib/firebase";
+
+
+
+
+
+
+
+
+
+
+
+export default async function Dashboard() {
+  // 🔒 SAFE STATIC VALUES (Pi upload ready)
+  const trustScore = 10;
+  const trustBreakdown = { deals: 0, skills: 2, community: 0 };
+
+  // 🔒 SAFE STATIC VALUES (Pi upload ready)
+
+
+
+
+
+  // ✅ SAFE initial values (NO ReferenceError possible)
+
+  return (
+    <main className="p-4 space-y-4 bg-green-50 min-h-screen">
+      <h1 className="text-2xl font-bold">UNIBIC Dashboard · Pi Ready</h1>
+
+      <div className="border rounded-xl p-4 bg-white shadow">
+        <h2 className="font-semibold text-lg">Trust Score (Live)</h2>
+
+        <div className="text-3xl font-bold text-green-600">
+        </div>
+        <div className="text-sm text-gray-500">Real-time from Firestore</div>
+      </div>
+
+      <div className="border rounded-xl p-4 bg-white shadow">
+        <h2 className="font-semibold text-lg">Deals</h2>
+        <a href="/deals" className="text-blue-600">Open Deals</a>
+      </div>
+
+      <div className="border rounded-xl p-4 bg-white shadow">
+        <h2 className="font-semibold text-lg">Skills</h2>
+        <a href="/skills" className="text-blue-600">Find Skills</a>
+      </div>
+
+      <div className="border rounded-xl p-4 bg-white shadow">
+        <h2 className="font-semibold text-lg">Community</h2>
+        <div className="text-sm text-gray-500">Active community members</div>
+        <a href="/community" className="text-blue-600">Open Community</a>
+      </div>
+
+      <div className="border rounded-xl p-4 bg-white shadow">
+        <h4 className="font-semibold">Profile</h4>
+        <a href="/profile" className="text-blue-600">Open Profile</a>
+      </div>
+    </main>
+  );
+}

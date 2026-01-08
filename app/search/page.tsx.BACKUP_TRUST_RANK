@@ -1,0 +1,22 @@
+"use client";
+import { useState } from "react";
+import { SEARCH_SKILLS } from "./mock/search.mock";
+import SearchBar from "./components/SearchBar";
+import SearchResult from "./components/SearchResult";
+
+export default function SearchPage() {
+  const [result, setResult] = useState<any | null>(null);
+
+  const handleSearch = (q: string) => {
+    const found = SEARCH_SKILLS.find(s => s.keyword === q);
+    setResult(found || null);
+  };
+
+  return (
+    <main className="max-w-md mx-auto p-4">
+      <h2 className="text-lg font-bold mb-2">Search & Match</h2>
+      <SearchBar onSearch={handleSearch} />
+      <SearchResult result={result} />
+    </main>
+  );
+}

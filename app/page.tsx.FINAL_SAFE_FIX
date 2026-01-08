@@ -1,0 +1,16 @@
+import React from "react";
+"use client";
+
+import TrustRing from "@/components/dashboard/TrustRing";
+import AnimatedShield from "@/components/AnimatedShield.tsx";
+
+export default function Page() {
+  return (
+    <main style={{ padding: 24 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+        <TrustRing score={650} max={1000} label="--" />
+        <AnimatedShield />
+      </div>
+    </main>
+  );
+}
