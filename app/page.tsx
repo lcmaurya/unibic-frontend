@@ -1,3 +1,4 @@
+import CommunityPreview from "@/app/components/CommunityPreview";
 import DealsPreview from "@/app/components/DealsPreview";
 import NearbyTaskList from "@/app/components/NearbyTaskList";
 import TodaySummaryBlock from "@/app/components/TodaySummaryBlock";
@@ -10,6 +11,7 @@ import TrustHero from '@/app/components/TrustHero'
 <TodaySummaryBlock />
 <NearbyTaskList />
 <DealsPreview />
+<CommunityPreview />
 import DealStatus from '@/app/components/home/DealStatus'
 import TodaySummary from '@/app/components/TodaySummary'
 import NearbyTasks from '@/app/components/NearbyTasks'
@@ -26,6 +28,7 @@ export default function HomePage() {
 <TodaySummaryBlock />
 <NearbyTaskList />
 <DealsPreview />
+<CommunityPreview />
         <DealStatus />
         <TodaySummary />
         <NearbyTasks />
