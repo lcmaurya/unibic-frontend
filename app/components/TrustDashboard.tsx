@@ -1,50 +1,17 @@
-"use client";
-import { useRouter } from "next/navigation";
-import AnimatedShield from "./AnimatedShield";
-import VerifiedShield from "./VerifiedShield";
-import ShieldIcon from "./ShieldIcon";
-
+'use client';
 
 import TrustRing from "./TrustRing";
-import TrustStats from "./TrustStats";
-import RecentActivityCard from "./RecentActivityCard";
-import TodaySummary from "./TodaySummary";
-import ActionButtons from "./ActionButtons";
 
 export default function TrustDashboard() {
-  const router = useRouter();
+  const score = 750; // frontend-only mock score
+
   return (
-    <section
-      style={{
-        background: "#eefaf4",
-        padding: 16,
-        borderRadius: 16,
-        marginBottom: 20,
-      }}
-    >
-      <div style={{ display: "flex", gap: 20, alignItems: "center" }}>
-        <TrustRing score={score} />
-        <div>
-          <div style={{ fontSize: 22, fontWeight: "bold" }}>Excellent <span className="ml-2 inline-flex align-middle"><AnimatedShield /></span></div>
-          <div style={{ opacity: 0.6 }}>Trust score calculated</div>
-
-        <div style={{ position: "absolute", top: 14, right: 14 }}>
-        </div>
-
-        </div>
+    <div style={{ display: "flex", gap: 20, alignItems: "center" }}>
+      <TrustRing score={score} />
+      <div>
+        <div style={{ fontSize: 22, fontWeight: "bold" }}>Excellent</div>
+        <div style={{ opacity: 0.6 }}>Trust score (demo)</div>
       </div>
-
-      <div style={{ marginTop: 16 }}>
-        <RecentActivityCard />
-      </div>
-
-      <div style={{ marginTop: 16 }}>
-        <TodaySummary />
-      </div>
-
-      <div style={{ marginTop: 16 }}>
-        <ActionButtons />
-      </div>
-    </section>
+    </div>
   );
 }
