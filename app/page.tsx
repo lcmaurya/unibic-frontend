@@ -1,27 +1,49 @@
 import CommunityPreview from "@/app/components/CommunityPreview";
 import DealsPreview from "@/app/components/DealsPreview";
-import SkillsPreview from "@/app/components/SkillsPreview";
-import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 import SkillsPreview from "@/app/components/SkillsPreview";
 import DealsPreview from "@/app/components/DealsPreview";
 import CommunityPreview from "@/app/components/CommunityPreview";
-import DealsPreview from "@/app/components/DealsPreview";
+
 import SkillsPreview from "@/app/components/SkillsPreview";
 import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 import SkillsPreview from "@/app/components/SkillsPreview";
 import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+import SkillsPreview from "@/app/components/SkillsPreview";
+import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 import MediaFeedPreview from "@/app/components/MediaFeedPreview";
 import DealsPreview from "@/app/components/DealsPreview";
-import SkillsPreview from "@/app/components/SkillsPreview";
-import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 import SkillsPreview from "@/app/components/SkillsPreview";
 import DealsPreview from "@/app/components/DealsPreview";
 import CommunityPreview from "@/app/components/CommunityPreview";
+
+import SkillsPreview from "@/app/components/SkillsPreview";
 import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 import NearbyTaskList from "@/app/components/NearbyTaskList";
 import TodaySummaryBlock from "@/app/components/TodaySummaryBlock";
 import ProfilePreview from "@/app/components/ProfilePreview";
 import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 
 
 import ActiveDealCard from "@/app/components/ActiveDealCard";
@@ -35,140 +57,396 @@ import TrustHero from '@/app/components/TrustHero'
     <ProfilePreview />
   <div className="mt-4">
     <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
   </div>
 
 import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 
   </div>
 
 import ProfilePreview from "@/app/components/ProfilePreview";
 import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 
 
 <NearbyTaskList />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <MediaFeedPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
-<CommunityPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<CommunityPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<CommunityPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<CommunityPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<CommunityPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <MediaFeedPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <CommunityPreview />
@@ -176,6 +454,8 @@ import DealStatus from '@/app/components/home/DealStatus'
 import TodaySummary from '@/app/components/TodaySummary'
 import ProfilePreview from "@/app/components/ProfilePreview";
 import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 
 
 import NearbyTasks from '@/app/components/NearbyTasks'
@@ -189,172 +469,508 @@ export default function HomePage() {
       <main className="px-4 space-y-6 pb-24">
         <TrustHero />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <MediaFeedPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <MediaFeedPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
-<CommunityPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<CommunityPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<CommunityPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<CommunityPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<CommunityPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <MediaFeedPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <ActiveDealCard />
@@ -363,140 +979,396 @@ export default function HomePage() {
     <ProfilePreview />
   <div className="mt-4">
     <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
   </div>
 
 import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 
   </div>
 
 import ProfilePreview from "@/app/components/ProfilePreview";
 import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 
 
 <NearbyTaskList />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <MediaFeedPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
-<CommunityPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<CommunityPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<CommunityPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
-<CommunityPreview />
-<SkillsPreview />
-<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<CommunityPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<CommunityPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
+<CommunityPreview />
+<SkillsPreview />
+<DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <MediaFeedPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <SkillsPreview />
 <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 <CommunityPreview />
 <CommunityPreview />
 <CommunityPreview />
@@ -506,14 +1378,24 @@ import DealsPreview from "@/app/components/DealsPreview";
     <ProfilePreview />
   <div className="mt-4">
     <DealsPreview />
+  <div className="mt-4">
+    <CommunityPreview />
+  </div>
+
+import CommunityPreview from "@/app/components/CommunityPreview";
+
   </div>
 
 import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 
   </div>
 
 import ProfilePreview from "@/app/components/ProfilePreview";
 import DealsPreview from "@/app/components/DealsPreview";
+import CommunityPreview from "@/app/components/CommunityPreview";
+
 
 
         <NearbyTasks />
