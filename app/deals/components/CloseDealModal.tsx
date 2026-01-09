@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 export default function CloseDealModal({ onClose }: any) {
   return (
     <div className="fixed inset-0 bg-black/40 flex items-center justify-center">
@@ -6,17 +7,17 @@ export default function CloseDealModal({ onClose }: any) {
         <p className="text-sm text-gray-600 mb-4">
           This will mark deal as completed.
         </p>
-        <button
+        <Button
           className="w-full bg-green-600 text-white py-2 rounded mb-2"
         >
           Confirm 
-        </button>
-        <button
+        </Button>
+        <Button
           onClick={onClose}
           className="w-full border py-2 rounded"
         >
           Cancel
-        </button>
+        </Button>
       </div>
     </div>
   );

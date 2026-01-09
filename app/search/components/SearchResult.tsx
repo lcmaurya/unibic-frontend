@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 import { useState } from "react";
 import ProviderModal from "./ProviderModal";
@@ -20,12 +21,12 @@ export default function SearchResult({ result }: { result: any }) {
             Trust: {item.trust}/1000 · {item.distance}
           </p>
 
-          <button
+          <Button
             onClick={() => setOpen(true)}
             className="mt-2 bg-green-600 text-white px-3 py-1 rounded text-sm"
           >
             View Provider
-          </button>
+          </Button>
         </div>
       ))}
 

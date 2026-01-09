@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 import { useRouter } from "next/navigation";
 
@@ -30,9 +31,9 @@ export default function NearbyTasks() {
 <div className="mx-4 mb-3 bg-white rounded-xl p-4 shadow-sm">
   <div className="flex items-center justify-between">
     <div className="font-semibold text-base">💬 Deals Room</div>
-<button className="text-xs text-green-600" onClick={() => router.push("/deals")}>
+<Button className="text-xs text-green-600" onClick={() => router.push("/deals")}>
 Open
-</button>
+</Button>
   </div>
   <div className="text-xs text-gray-500 mt-1">Client ↔ Service Provider discussion</div>
 </div>

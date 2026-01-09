@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 'use client'
 
 import { useEffect, useState } from "react"
@@ -21,7 +22,7 @@ export default function AdminUsers() {
           <div>Banned: {String(u.banned)}</div>
           <div>Strikes: {u.strikeCount || 0}</div>
 
-          <button onClick={() =>
+          <Button onClick={() =>
             fetch("/api/moderation/admin-unmute", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
@@ -29,7 +30,7 @@ export default function AdminUsers() {
             })
           }>
             Unmute
-          </button>
+          </Button>
         </div>
       ))}
     </div>

@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 
 import { setActiveProvider } from "@/app/lib/dealController";
@@ -17,19 +18,19 @@ export default function ProviderModal({ data, onClose }: any) {
           Location: {data.distance}
         </p>
 
-        <button
+        <Button
           className="mt-4 bg-green-600 text-white w-full py-2 rounded"
           onClick={() => { setActiveProvider(data); window.location.href = "/deals"; }}
         >
           Start Deal
-        </button>
+        </Button>
 
-        <button
+        <Button
           className="mt-2 text-sm text-gray-500 w-full"
           onClick={onClose}
         >
           Close
-        </button>
+        </Button>
       </Card>
     </Card>
   );

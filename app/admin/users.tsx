@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client"
 
 import { useEffect, useState } from "react"
@@ -54,9 +55,9 @@ export default function AdminUsers() {
           Muted: {String(u.muted)}<br />
           Strikes: {u.strikeCount || 0}<br />
 
-          <button onClick={() => mute(u.id)}>Mute</button>{" "}
-          <button onClick={() => unmute(u.id)}>Unmute</button>{" "}
-          <button onClick={() => strike(u.id)}>Strike</button>
+          <Button onClick={() => mute(u.id)}>Mute</Button>{" "}
+          <Button onClick={() => unmute(u.id)}>Unmute</Button>{" "}
+          <Button onClick={() => strike(u.id)}>Strike</Button>
         </div>
       ))}
     </div>

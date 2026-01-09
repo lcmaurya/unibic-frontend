@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 
 export default function TaskDetail() {
@@ -15,7 +16,7 @@ export default function TaskDetail() {
         🏷 Category: Design
       </div>
 
-      <button
+      <Button
         style={{
           marginTop: 20,
           width: "100%",
@@ -28,7 +29,7 @@ export default function TaskDetail() {
         }}
       >
         Accept Task
-      </button>
+      </Button>
     </main>
   );
 }

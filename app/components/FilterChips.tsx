@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 
 const categories = [
@@ -18,7 +19,7 @@ export default function FilterChips({ active, onSelect }: Props) {
   return (
     <div style={{ display: "flex", gap: 8, marginBottom: 14, flexWrap: "wrap" }}>
       {categories.map((cat) => (
-        <button
+        <Button
           key={cat}
           onClick={() => onSelect(cat)}
           style={{
@@ -32,7 +33,7 @@ export default function FilterChips({ active, onSelect }: Props) {
           }}
         >
           {cat}
-        </button>
+        </Button>
       ))}
     </div>
   );

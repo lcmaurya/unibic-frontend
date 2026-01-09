@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 
 import { useRouter } from "next/navigation";
@@ -13,13 +14,13 @@ export default function SuccessPage() {
         Your task is now visible to nearby helpers.
       </p>
 
-      <button className="button tap" onClick={() => router.push("/")} style={primaryBtn}>
+      <Button className="button tap" onClick={() => router.push("/")} style={primaryBtn}>
         Back to Home
-      </button>
+      </Button>
 
-      <button className="button tap" onClick={() => router.push("/post")} style={secondaryBtn}>
+      <Button className="button tap" onClick={() => router.push("/post")} style={secondaryBtn}>
         Post Another Task
-      </button>
+      </Button>
     </main>
   );
 }

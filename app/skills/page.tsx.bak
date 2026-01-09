@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 
 import { useEffect, useState } from "react";
@@ -76,12 +77,12 @@ export default function SkillsPage() {
     <div className="p-4">
       <h1 className="text-lg font-bold mb-3">UNIBIC TRUST</h1>
 
-      <button
+      <Button
         onClick={addTestSkill}
         className="bg-black text-white px-4 py-2 rounded mb-4"
       >
         Add Test Skill
-      </button>
+      </Button>
 
       {loading && <div className="text-gray-500">Loading...</div>}
 
@@ -99,18 +100,18 @@ export default function SkillsPage() {
           <div className="text-sm">{s.description}</div>
 
           <div className="mt-2 flex gap-4">
-            <button
+            <Button
               className="text-red-600 text-xs"
               onClick={() => deleteSkill(s.id)}
             >
               Delete
-            </button>
-            <button
+            </Button>
+            <Button
               className="text-blue-600 text-xs"
               onClick={() => editSkill(s)}
             >
               Edit
-            </button>
+            </Button>
           </div>
         </div>
       ))}

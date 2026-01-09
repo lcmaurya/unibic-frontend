@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 
 import { useEffect, useState } from "react";
@@ -50,12 +51,12 @@ export default function DealsPage() {
           className="border p-2 flex-1 rounded"
           placeholder="New deal title"
         />
-        <button
+        <Button
           onClick={add}
           className="bg-green-600 text-white px-4 rounded"
         >
           Add
-        </button>
+        </Button>
       </div>
 
       {deals.map(d => (
@@ -65,12 +66,12 @@ export default function DealsPage() {
         >
           <span>{d.title}</span>
           {d.status === "open" ? (
-            <button
+            <Button
               onClick={() => closeDeal(d.id)}
               className="text-green-600"
             >
               close
-            </button>
+            </Button>
           ) : (
             <span className="text-gray-400">completed</span>
           )}

@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 
 import { useRouter } from "next/navigation";
@@ -50,7 +51,7 @@ export default function NearbyTaskCard({
           marginTop: 12,
         }}
       >
-        <button
+        <Button
           className="button tap"
           onClick={() => router.push(`/task/${id}`)}
           style={{
@@ -63,9 +64,9 @@ export default function NearbyTaskCard({
           }}
         >
           Details
-        </button>
+        </Button>
 
-        <button
+        <Button
           className="button tap"
           style={{
             flex: 1,
@@ -79,7 +80,7 @@ export default function NearbyTaskCard({
           }}
         >
           Accept
-        </button>
+        </Button>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 
 import { useState } from "react";
@@ -43,9 +44,9 @@ export default function PostTaskPage() {
         <option>Tech</option>
       </select>
 
-      <button className="button tap" onClick={submit} style={btn}>
+      <Button className="button tap" onClick={submit} style={btn}>
         🚀 Post Task
-      </button>
+      </Button>
     </main>
   );
 }

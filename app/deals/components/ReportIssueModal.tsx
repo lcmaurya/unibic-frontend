@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 export default function ReportIssueModal({ onClose }: any) {
   return (
     <div className="fixed inset-0 bg-black/40 flex items-center justify-center">
@@ -8,15 +9,15 @@ export default function ReportIssueModal({ onClose }: any) {
           <option>Payment issue</option>
           <option>Fraud suspicion</option>
         </select>
-        <button className="w-full bg-red-600 text-white py-2 rounded mb-2">
+        <Button className="w-full bg-red-600 text-white py-2 rounded mb-2">
           Submit Report 
-        </button>
-        <button
+        </Button>
+        <Button
           onClick={onClose}
           className="w-full border py-2 rounded"
         >
           Cancel
-        </button>
+        </Button>
       </div>
     </div>
   );

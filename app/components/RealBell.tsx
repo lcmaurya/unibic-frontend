@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client"
 import { useRef } from "react"
 
@@ -11,7 +12,7 @@ export default function RealBell() {
 
   return (
     <div style={{ position: "relative" }}>
-      <button
+      <Button
         onClick={ring}
         aria-label="Notifications"
         style={{
@@ -23,7 +24,7 @@ export default function RealBell() {
         }}
       >
         🔔
-      </button>
+      </Button>
 
       <audio ref={audioRef} src="/bell.mp3" preload="auto" />
 

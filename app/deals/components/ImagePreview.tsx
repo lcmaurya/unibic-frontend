@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 
 export default function ImagePreview({
@@ -19,12 +20,12 @@ export default function ImagePreview({
         />
 
         {!locked && (
-          <button
+          <Button
             onClick={clear}
             className="absolute -top-2 -right-2 bg-red-600 text-white w-8 h-8 rounded-full flex items-center justify-center shadow-lg"
           >
             ✕
-          </button>
+          </Button>
         )}
       </div>
     </div>

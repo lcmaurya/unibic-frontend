@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 
 export default function VideoPreview({
@@ -17,12 +18,12 @@ export default function VideoPreview({
         className="rounded-lg max-h-[260px]"
       />
       {!locked && (
-        <button
+        <Button
           onClick={clear}
           className="absolute top-2 right-2 bg-red-600 text-white w-7 h-7 rounded-full text-sm"
         >
           ×
-        </button>
+        </Button>
       )}
     </div>
   );

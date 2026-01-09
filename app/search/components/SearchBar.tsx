@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 import { useState } from "react";
 
@@ -11,12 +12,12 @@ export default function SearchBar({ onSearch }: { onSearch: (q: string) => void 
         placeholder="Search skill (exact)"
         className="flex-1 border rounded px-3 py-2"
       />
-      <button
+      <Button
         onClick={() => onSearch(q)}
         className="bg-green-600 text-white px-4 rounded"
       >
         Search
-      </button>
+      </Button>
     </div>
   );
 }

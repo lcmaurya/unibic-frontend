@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 
 import VideoUploader from "./components/VideoUploader";
@@ -33,13 +34,13 @@ const [locked, setLocked] = useState(false);
           onSelect={(file) => setImage(URL.createObjectURL(file))}
         />
 
-        <button className="bg-blue-600 text-white px-4 py-2 rounded-full">
+        <Button className="bg-blue-600 text-white px-4 py-2 rounded-full">
           Audio
-        </button>
+        </Button>
 
-        <button className="bg-purple-600 text-white px-4 py-2 rounded-full">
+        <Button className="bg-purple-600 text-white px-4 py-2 rounded-full">
           Video
-        </button>
+        </Button>
       </div>
 
       {/* CHAT BOX */}
@@ -64,7 +65,7 @@ const [locked, setLocked] = useState(false);
           placeholder="Type your message..."
           className="flex-1 border rounded-full px-4 py-2 text-sm"
         />
-        <button
+        <Button
           onClick={() => {
             setText("");
             setImage(null);
@@ -72,22 +73,22 @@ const [locked, setLocked] = useState(false);
           className="bg-green-600 text-white px-4 py-2 rounded-full"
         >
           Send
-        </button>
+        </Button>
       </div>
 
       {/* ACTIONS */}
       <div className="grid grid-cols-2 gap-2 mb-2">
-        <button className="border rounded-lg py-2">Report Issue</button>
-        <button className="border rounded-lg py-2">Exit Deal</button>
+        <Button className="border rounded-lg py-2">Report Issue</Button>
+        <Button className="border rounded-lg py-2">Exit Deal</Button>
       </div>
 
       <div className="grid grid-cols-2 gap-2">
-        <button className="bg-green-600 text-white rounded-lg py-2">
+        <Button className="bg-green-600 text-white rounded-lg py-2">
           Mark as Done
-        </button>
-        <button className="bg-red-600 text-white rounded-lg py-2">
+        </Button>
+        <Button className="bg-red-600 text-white rounded-lg py-2">
           Cancel Deal
-        </button>
+        </Button>
       </div>
     </main>
   );

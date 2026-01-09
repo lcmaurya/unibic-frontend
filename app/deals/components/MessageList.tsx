@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 
 import { useEffect, useRef } from "react";
@@ -27,12 +28,12 @@ export default function MessageList({
     <div className="space-y-3">
       {messages.map((m) => (
         <div key={m.id} className="bg-white rounded-lg p-3 relative">
-          <button
+          <Button
             onClick={() => onDelete(m.id)}
             className="absolute top-2 right-2 text-red-500 text-sm"
           >
             ✕
-          </button>
+          </Button>
 
           {m.text && <div className="text-sm">{m.text}</div>}
 

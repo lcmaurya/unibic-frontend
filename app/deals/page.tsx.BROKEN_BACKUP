@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 import ImageUploader from "@/app/deals/components/ImageUploader";
 
 "use client";
@@ -30,12 +31,12 @@ export default function DealsRoom() {
       {/* MEDIA STRIP (TOP) */}
       <div className="grid grid-cols-3 gap-2 mb-3">
         <ImageUploader />
-        <button className="bg-blue-600 text-white py-2 rounded-xl font-medium shadow">
+        <Button className="bg-blue-600 text-white py-2 rounded-xl font-medium shadow">
           Audio
-        </button>
-        <button className="bg-purple-600 text-white py-2 rounded-xl font-medium shadow">
+        </Button>
+        <Button className="bg-purple-600 text-white py-2 rounded-xl font-medium shadow">
           Video
-        </button>
+        </Button>
       </div>
 
       {/* CHAT BOX */}
@@ -52,24 +53,24 @@ export default function DealsRoom() {
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
-        <button
+        <Button
           onClick={sendText}
           className="bg-green-600 text-white px-4 rounded-xl font-medium"
         >
           Send
-        </button>
+        </Button>
       </div>
 
       {/* ACTION BUTTONS */}
       <div className="grid grid-cols-2 gap-2">
-        <button className="border rounded-lg py-2">Report Issue</button>
-        <button className="border rounded-lg py-2">Exit Deal</button>
-        <button className="bg-green-600 text-white rounded-lg py-2">
+        <Button className="border rounded-lg py-2">Report Issue</Button>
+        <Button className="border rounded-lg py-2">Exit Deal</Button>
+        <Button className="bg-green-600 text-white rounded-lg py-2">
           Mark as Done
-        </button>
-        <button className="bg-red-600 text-white rounded-lg py-2">
+        </Button>
+        <Button className="bg-red-600 text-white rounded-lg py-2">
           Cancel Deal
-        </button>
+        </Button>
       </div>
 
     </main>

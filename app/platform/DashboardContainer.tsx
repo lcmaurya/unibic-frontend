@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/ui/Button";
 "use client";
 
 import { useTrustScore } from "@/app/hooks/useTrustScore";
@@ -64,11 +65,11 @@ export default function DashboardContainer() {
 
       {/* ACTIONS */}
       <section className="grid grid-cols-3 gap-3">
-        <button className="bg-white rounded-xl p-3 shadow text-xs">📦 Post Skill</button>
-        <button className="bg-white rounded-xl p-3 shadow text-xs">📍 Find Work</button>
-        <button className="bg-red-100 text-red-700 rounded-xl p-3 shadow text-xs">
+        <Button className="bg-white rounded-xl p-3 shadow text-xs">📦 Post Skill</Button>
+        <Button className="bg-white rounded-xl p-3 shadow text-xs">📍 Find Work</Button>
+        <Button className="bg-red-100 text-red-700 rounded-xl p-3 shadow text-xs">
           🆘 Request Help
-        </button>
+        </Button>
       </section>
 
     </div>
