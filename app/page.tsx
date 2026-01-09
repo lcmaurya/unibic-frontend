@@ -1,3 +1,4 @@
+import DealsPreview from "@/app/components/DealsPreview";
 import NearbyTaskList from "@/app/components/NearbyTaskList";
 import TodaySummaryBlock from "@/app/components/TodaySummaryBlock";
 import ActiveDealCard from "@/app/components/ActiveDealCard";
@@ -8,6 +9,7 @@ import TrustHero from '@/app/components/TrustHero'
 <ActiveDealCard />
 <TodaySummaryBlock />
 <NearbyTaskList />
+<DealsPreview />
 import DealStatus from '@/app/components/home/DealStatus'
 import TodaySummary from '@/app/components/TodaySummary'
 import NearbyTasks from '@/app/components/NearbyTasks'
@@ -23,6 +25,7 @@ export default function HomePage() {
 <ActiveDealCard />
 <TodaySummaryBlock />
 <NearbyTaskList />
+<DealsPreview />
         <DealStatus />
         <TodaySummary />
         <NearbyTasks />
