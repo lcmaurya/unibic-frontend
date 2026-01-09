@@ -316,3 +316,44 @@ body { background: var(--bg-page); color: var(--text-primary); }
   --shadow-md: 0 6px 16px rgba(0,0,0,.08);
   --shadow-lg: 0 12px 28px rgba(0,0,0,.12);
 }
+
+/* ===== ANIMATIONS ===== */
+.fade-in {
+  animation: fadeIn .25s ease-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.scale-in {
+  animation: scaleIn .2s ease-out;
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(.98); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* ===== MOBILE SPACING ===== */
+@media (max-width: 640px) {
+  .card { padding: 12px; }
+  .section { margin-bottom: 12px; }
+  .btn { padding: 10px 14px; }
+}
+
+/* ===== SKELETON ===== */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    #eee 25%,
+    #f5f5f5 37%,
+    #eee 63%
+  );
+  background-size: 400% 100%;
+  animation: skeleton 1.2s ease infinite;
+  border-radius: 8px;
+}
+@keyframes skeleton {
+  0% { background-position: 100% 0; }
+  100% { background-position: 0 0; }
+}
