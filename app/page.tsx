@@ -1,3 +1,4 @@
+import DealsPreview from "@/app/components/DealsPreview";
 import CommunityPreview from "@/app/components/CommunityPreview";
 import DealsPreview from "@/app/components/DealsPreview";
 import SkillsPreview from "@/app/components/SkillsPreview";
@@ -66,6 +67,7 @@ export default function HomePage() {
 
       <main className="px-4 space-y-6 pb-24">
         <TrustHero />
+<DealsPreview />
 <DealsPreview />
 <CommunityPreview />
 <SkillsPreview />
