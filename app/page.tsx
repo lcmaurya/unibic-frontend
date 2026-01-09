@@ -1,3 +1,4 @@
+import SkillsPreview from "@/app/components/SkillsPreview";
 import DealsPreview from "@/app/components/DealsPreview";
 import CommunityPreview from "@/app/components/CommunityPreview";
 import DealsPreview from "@/app/components/DealsPreview";
@@ -12,6 +13,7 @@ import TrustHero from '@/app/components/TrustHero'
 <TodaySummaryBlock />
 <NearbyTaskList />
 <DealsPreview />
+<SkillsPreview />
 <CommunityPreview />
 import DealStatus from '@/app/components/home/DealStatus'
 import TodaySummary from '@/app/components/TodaySummary'
@@ -26,10 +28,12 @@ export default function HomePage() {
       <main className="px-4 space-y-6 pb-24">
         <TrustHero />
 <DealsPreview />
+<SkillsPreview />
 <ActiveDealCard />
 <TodaySummaryBlock />
 <NearbyTaskList />
 <DealsPreview />
+<SkillsPreview />
 <CommunityPreview />
         <DealStatus />
         <TodaySummary />
