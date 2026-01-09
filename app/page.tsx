@@ -1,67 +1,25 @@
-import { Card } from "@/app/components/ui/Card";
+'use client'
 
+import Header from '@/app/components/Header'
+import TrustHero from '@/app/components/TrustHero'
+import DealStatus from '@/app/components/home/DealStatus'
+import TodaySummary from '@/app/components/TodaySummary'
+import NearbyTasks from '@/app/components/NearbyTasks'
+import BottomNav from '@/app/components/BottomNav'
 
-
-
-import { getPiUser } from "@/app/lib/piAuth";
-
-import { initFirebase, getFirebaseUserCount } from "@/app/lib/firebase";
-
-
-
-
-
-
-
-
-
-
-
-export default async function Dashboard() {
-  // 🔒 SAFE STATIC VALUES (Pi upload ready)
-  const trustScore = 10;
-  const trustBreakdown = { deals: 0, skills: 2, community: 0 };
-
-  // 🔒 SAFE STATIC VALUES (Pi upload ready)
-
-
-
-
-
-  // ✅ SAFE initial values (NO ReferenceError possible)
-
+export default function HomePage() {
   return (
-    <main className="ui-container ui-stack-lg" className="grid grid-cols-1 md:grid-cols-2 gap-4" className="p-4 space-y-4 bg-green-50 min-h-screen">
-      <h1 className="text-2xl font-bold">UNIBIC Dashboard · Pi Ready</h1>
+    <div className="min-h-screen bg-[#F6FBF8]">
+      <Header />
 
-      <Card className="border rounded ui-card-xl p-4 bg-white shadow">
-        <h2 className="font-semibold text-lg">Trust Score (Live)</h2>
+      <main className="px-4 space-y-6 pb-24">
+        <TrustHero />
+        <DealStatus />
+        <TodaySummary />
+        <NearbyTasks />
+      </main>
 
-        <Card className="text-3xl font-bold text-[var(--brand-green)]">
-        </Card>
-        <Card className="text-sm text-muted">Real-time from Firestore</Card>
-      </Card>
-
-      <Card className="border rounded ui-card-xl p-4 bg-white shadow">
-        <h2 className="font-semibold text-lg">Deals</h2>
-        <a href="/deals" className="text-blue-600">Open Deals</a>
-      </Card>
-
-      <Card className="border rounded ui-card-xl p-4 bg-white shadow">
-        <h2 className="font-semibold text-lg">Skills</h2>
-        <a href="/skills" className="text-blue-600">Find Skills</a>
-      </Card>
-
-      <Card className="border rounded ui-card-xl p-4 bg-white shadow">
-        <h2 className="font-semibold text-lg">Community</h2>
-        <Card className="text-sm text-muted">Active community members</Card>
-        <a href="/community" className="text-blue-600">Open Community</a>
-      </Card>
-
-      <Card className="border rounded ui-card-xl p-4 bg-white shadow">
-        <h4 className="font-semibold">Profile</h4>
-        <a href="/profile" className="text-blue-600">Open Profile</a>
-      </Card>
-    </main>
-  );
+      <BottomNav />
+    </div>
+  )
 }

@@ -1,19 +1,30 @@
-"use client";
+'use client'
 
-import TrustShield from "@/app/components/TrustShield";
-import { useTrustScore } from "@/app/hooks/useTrustScore";
+import { Bell, MapPin, ShieldCheck } from 'lucide-react'
+import SearchBar from './SearchBar'
 
 export default function Header() {
-  const trust = useTrustScore();
-
   return (
-    <header className="relative card card-hover px-4 py-3 shadow">
-      <h1 className="font-semibold text-lg">UNIBIC TRUST</h1>
-<a href="/platform" className="absolute left-4 top-4 text-xs text-[var(--brand-green)] font-medium">Dashboard</a>
+    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b">
+      <div className="px-4 pt-4 pb-3 space-y-3">
 
-      <div className="absolute right-4 top-2">
-        <TrustShield score={trust.score || 0} />
+        {/* Title Row */}
+        <div className="flex items-center justify-between">
+          <h1 className="text-lg font-semibold tracking-tight">
+            <span className="text-black">Unibic</span>{' '}
+            <span className="text-gray-600 font-medium">Trust</span>
+          </h1>
+
+          <div className="flex items-center gap-4 text-gray-600">
+            <ShieldCheck className="w-5 h-5 text-green-600" />
+            <MapPin className="w-5 h-5" />
+            <Bell className="w-5 h-5" />
+          </div>
+        </div>
+
+        {/* Search */}
+        <SearchBar placeholder="Search skills or tasks..." />
       </div>
     </header>
-  );
+  )
 }
