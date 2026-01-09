@@ -18,15 +18,19 @@ export default function RootLayout({
         </header>
 
         {/* PAGE CONTENT */}
-        <main className="pb-20">{children}</main>
+        <main className="pb-16" className="pb-20">{children}</main>
+<BottomNav />
+
 
         {/* BOTTOM NAV */}
         <nav className="fixed bottom-0 left-0 right-0 bg-white border-t flex justify-around py-2 text-sm">
-          <a href="/" className="text-green-600">Home</a>
+          <a href="/" className="text-[var(--brand-green)]">Home</a>
           <a href="/skills">Skills</a>
           <a href="/community">Community</a>
           <a href="/profile">Profile</a>
         </nav>
+import BottomNav from "@/app/components/ui/BottomNav";
+
       </body>
     </html>
   );
