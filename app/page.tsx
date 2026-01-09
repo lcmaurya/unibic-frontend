@@ -1,3 +1,4 @@
+import DealsPreview from "@/app/components/DealsPreview";
 import SkillsPreview from "@/app/components/SkillsPreview";
 import DealsPreview from "@/app/components/DealsPreview";
 import SkillsPreview from "@/app/components/SkillsPreview";
@@ -23,16 +24,21 @@ import TrustHero from '@/app/components/TrustHero'
 <DealsPreview />
 <SkillsPreview />
 <DealsPreview />
-<MediaFeedPreview />
-<SkillsPreview />
-<DealsPreview />
-<SkillsPreview />
-<DealsPreview />
-<DealsPreview />
-<SkillsPreview />
 <DealsPreview />
 <MediaFeedPreview />
 <SkillsPreview />
+<DealsPreview />
+<DealsPreview />
+<SkillsPreview />
+<DealsPreview />
+<DealsPreview />
+<DealsPreview />
+<SkillsPreview />
+<DealsPreview />
+<DealsPreview />
+<MediaFeedPreview />
+<SkillsPreview />
+<DealsPreview />
 <DealsPreview />
 <CommunityPreview />
 import DealStatus from '@/app/components/home/DealStatus'
@@ -50,20 +56,26 @@ export default function HomePage() {
 <DealsPreview />
 <SkillsPreview />
 <DealsPreview />
-<MediaFeedPreview />
-<DealsPreview />
-<SkillsPreview />
 <DealsPreview />
 <MediaFeedPreview />
-<SkillsPreview />
 <DealsPreview />
 <SkillsPreview />
 <DealsPreview />
-<DealsPreview />
-<SkillsPreview />
 <DealsPreview />
 <MediaFeedPreview />
 <SkillsPreview />
+<DealsPreview />
+<DealsPreview />
+<SkillsPreview />
+<DealsPreview />
+<DealsPreview />
+<DealsPreview />
+<SkillsPreview />
+<DealsPreview />
+<DealsPreview />
+<MediaFeedPreview />
+<SkillsPreview />
+<DealsPreview />
 <DealsPreview />
 <ActiveDealCard />
 <TodaySummaryBlock />
@@ -71,16 +83,21 @@ export default function HomePage() {
 <DealsPreview />
 <SkillsPreview />
 <DealsPreview />
-<MediaFeedPreview />
-<SkillsPreview />
-<DealsPreview />
-<SkillsPreview />
-<DealsPreview />
-<DealsPreview />
-<SkillsPreview />
 <DealsPreview />
 <MediaFeedPreview />
 <SkillsPreview />
+<DealsPreview />
+<DealsPreview />
+<SkillsPreview />
+<DealsPreview />
+<DealsPreview />
+<DealsPreview />
+<SkillsPreview />
+<DealsPreview />
+<DealsPreview />
+<MediaFeedPreview />
+<SkillsPreview />
+<DealsPreview />
 <DealsPreview />
 <CommunityPreview />
         <DealStatus />

@@ -8,8 +8,8 @@ export default function DealsPreview() {
       <h3 className="text-sm font-semibold text-gray-800">Active Deals</h3>
 
       <div className="space-y-2">
-        <div className="h-10 bg-gray-100 rounded" />
-        <div className="h-10 bg-gray-100 rounded" />
+        <div className="h-10 bg-gray-100 rounded-lg" />
+        <div className="h-10 bg-gray-100 rounded-lg" />
       </div>
 
       <p className="text-xs text-gray-500">
