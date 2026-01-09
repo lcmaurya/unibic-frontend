@@ -1,3 +1,4 @@
+import SkillsPreview from "@/app/components/SkillsPreview";
 import DealsPreview from "@/app/components/DealsPreview";
 import SkillsPreview from "@/app/components/SkillsPreview";
 import DealsPreview from "@/app/components/DealsPreview";
