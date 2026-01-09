@@ -206,3 +206,45 @@
   transform: scale(0.985);
   box-shadow: 0 6px 16px rgba(0,0,0,0.12);
 }
+
+/* ===== UI SPACING POLISH ===== */
+
+/* Page container */
+.ui-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+/* Section spacing */
+.ui-section {
+  margin-bottom: 1.5rem;
+}
+
+/* Card spacing */
+.ui-card {
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+
+/* Stack helpers */
+.ui-stack-sm > * + * {
+  margin-top: 0.5rem;
+}
+
+.ui-stack-md > * + * {
+  margin-top: 1rem;
+}
+
+.ui-stack-lg > * + * {
+  margin-top: 1.5rem;
+}
+
+/* Inline gaps */
+.ui-inline-sm > * + * {
+  margin-left: 0.5rem;
+}
+
+.ui-inline-md > * + * {
+  margin-left: 1rem;
+}
