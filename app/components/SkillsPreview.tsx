@@ -12,13 +12,13 @@ export default function SkillsPreview() {
       </div>
 
       <Card>
-        <p className="text-sm font-medium">Phone Repair</p>
-        <p className="text-xs text-gray-500">Trust impact: +8</p>
+        <p className="text-sm font-medium">Mobile Repair</p>
+        <p className="text-xs text-gray-500">Trust-based service</p>
       </Card>
 
       <Card>
         <p className="text-sm font-medium">Graphic Design</p>
-        <p className="text-xs text-gray-500">Trust impact: +6</p>
+        <p className="text-xs text-gray-500">Freelance</p>
       </Card>
     </div>
   )
