@@ -4,7 +4,7 @@ export default function ActionButtons() {
   const btn = {
     flex: 1,
     background: "#fff",
-    borderRadius: 14,
+    border border-[var(--border-soft)]Radius: 14,
     padding: 12,
     textAlign: "center" as const,
     boxShadow: "0 1px 4px rgba(0,0,0,0.05)",

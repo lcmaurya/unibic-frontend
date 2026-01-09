@@ -18,7 +18,7 @@ export default function MessageList({
 
   if (!messages || messages.length === 0) {
     return (
-      <div className="bg-white rounded-xl min-h-[240px] flex items-center justify-center text-gray-400">
+      <div className="bg-white rounded ui-card-xl min-h-[240px] flex items-center justify-center text-gray-400">
         No messages yet
       </div>
     );
@@ -27,7 +27,7 @@ export default function MessageList({
   return (
     <div className="space-y-3">
       {messages.map((m) => (
-        <div key={m.id} className="bg-white rounded-lg p-3 relative">
+        <div key={m.id} className="bg-white rounded ui-card-lg p-3 relative">
           <Button
             onClick={() => onDelete(m.id)}
             className="absolute top-2 right-2 text-red-500 text-sm"
@@ -38,7 +38,7 @@ export default function MessageList({
           {m.text && <div className="text-sm">{m.text}</div>}
 
           {m.file?.type === "image" && (
-            <img src={m.file.url} className="mt-2 rounded max-w-full" />
+            <img src={m.file.url} className="mt-2 rounded ui-card max-w-full" />
           )}
 
           {m.file?.type === "audio" && (
@@ -48,7 +48,7 @@ export default function MessageList({
           )}
 
           {m.file?.type === "video" && (
-            <video controls className="mt-2 w-full rounded">
+            <video controls className="mt-2 w-full rounded ui-card">
               <source src={m.file.url} />
             </video>
           )}

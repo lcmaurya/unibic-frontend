@@ -15,14 +15,14 @@ export default function ImagePreview({
       <div className="relative inline-block">
         <img
           src={image}
-          className="rounded-lg max-h-[260px] object-contain"
+          className="rounded ui-card-lg max-h-[260px] object-contain"
           alt="preview"
         />
 
         {!locked && (
           <Button
             onClick={clear}
-            className="absolute -top-2 -right-2 bg-red-600 text-white w-8 h-8 rounded-full flex items-center justify-center shadow-lg"
+            className="absolute -top-2 -right-2 bg-red-600 text-white w-8 h-8 rounded ui-card-full flex items-center justify-center shadow-lg"
           >
             ✕
           </Button>

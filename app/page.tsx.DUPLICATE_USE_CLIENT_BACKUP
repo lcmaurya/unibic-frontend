@@ -16,7 +16,7 @@ export default function DashboardPage() {
   return (
     <div className="p-4 bg-green-50 min-h-screen space-y-4">
 
-      <div className="bg-green-100 rounded-xl p-4">
+      <div className="bg-green-100 rounded ui-card-xl p-4">
         <TrustRing score={trustScore} max={1000} label="--" />
       </div>
 

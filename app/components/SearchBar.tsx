@@ -14,8 +14,8 @@ export default function SearchBar({ value, onChange }: Props) {
       style={{
         width: "100%",
         padding: "12px 14px",
-        borderRadius: 14,
-        border: "1px solid #e5e7eb",
+        border border-[var(--border-soft)]Radius: 14,
+        border border-[var(--border-soft)]: "1px solid #e5e7eb",
         marginBottom: 12,
         fontSize: 14,
       }}

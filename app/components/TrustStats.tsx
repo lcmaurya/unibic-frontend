@@ -24,7 +24,7 @@ function Stat({ label, value }: { label: string; value: number }) {
       style={{
         flex: 1,
         background: "#f0fdf4",
-        borderRadius: 12,
+        border border-[var(--border-soft)]Radius: 12,
         padding: 12,
         textAlign: "center",
         fontSize: 13,

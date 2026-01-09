@@ -26,7 +26,7 @@ export default function Badge({ label }: Props) {
         alignItems: "center",
         gap: 6,
         padding: "4px 10px",
-        borderRadius: 999,
+        border border-[var(--border-soft)]Radius: 999,
         fontSize: 12,
         fontWeight: 500,
         background: cfg.bg,

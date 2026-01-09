@@ -8,7 +8,7 @@ export default function TopBar() {
       justifyContent: "space-between",
       alignItems: "center",
       padding: "12px 16px",
-      borderBottom: "1px solid #eee"
+      border border-[var(--border-soft)]Bottom: "1px solid #eee"
     }}>
       <strong>UNIBIC TRUST</strong>
       <RealBell />

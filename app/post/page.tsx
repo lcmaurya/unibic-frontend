@@ -55,16 +55,16 @@ const input = {
   width: "100%",
   padding: 12,
   marginTop: 12,
-  borderRadius: 10,
-  border: "1px solid #e5e7eb",
+  border border-[var(--border-soft)]Radius: 10,
+  border border-[var(--border-soft)]: "1px solid #e5e7eb",
 };
 
 const btn = {
   width: "100%",
   marginTop: 20,
   padding: 14,
-  borderRadius: 10,
-  border: "none",
+  border border-[var(--border-soft)]Radius: 10,
+  border border-[var(--border-soft)]: "none",
   background: "#22c55e",
   color: "#fff",
   fontSize: 16,

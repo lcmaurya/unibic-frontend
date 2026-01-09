@@ -23,7 +23,7 @@ export default function MediaFeed() {
   return (
     <div className="grid grid-cols-2 gap-2 mt-2">
       {media.map((m, i) => (
-        <div key={i} className="border rounded overflow-hidden">
+        <div key={i} className="border border-[var(--border-soft)] rounded ui-card overflow-hidden">
           {m.type === "image" && (
             <img src={m.url} className="w-full h-24 object-cover" />
           )}

@@ -26,11 +26,11 @@ export default function NearbyTaskCard({
       className="card-tap"
       style={{
         background: "#ffffff",
-        borderRadius: 14,
+        border border-[var(--border-soft)]Radius: 14,
         padding: 14,
         marginBottom: 12,
         boxShadow: "0 2px 10px rgba(0,0,0,0.05)",
-        border: "1px solid #e5e7eb",
+        border border-[var(--border-soft)]: "1px solid #e5e7eb",
       }}
     >
       <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -57,8 +57,8 @@ export default function NearbyTaskCard({
           style={{
             flex: 1,
             padding: 10,
-            borderRadius: 10,
-            border: "1px solid #e5e7eb",
+            border border-[var(--border-soft)]Radius: 10,
+            border border-[var(--border-soft)]: "1px solid #e5e7eb",
             background: "#ffffff",
             fontSize: 14,
           }}
@@ -71,8 +71,8 @@ export default function NearbyTaskCard({
           style={{
             flex: 1,
             padding: 10,
-            borderRadius: 10,
-            border: "none",
+            border border-[var(--border-soft)]Radius: 10,
+            border border-[var(--border-soft)]: "none",
             background: "#22c55e",
             color: "#ffffff",
             fontSize: 14,

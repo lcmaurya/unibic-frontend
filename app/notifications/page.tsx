@@ -39,7 +39,7 @@ export default function NotificationsPage() {
             marginBottom: 8,
             cursor: "pointer",
             background: n.read ? "#fff" : "#eef",
-            border: "1px solid #ddd"
+            border border-[var(--border-soft)]: "1px solid #ddd"
           }}
         >
           <b>{n.title}</b>

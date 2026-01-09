@@ -1,13 +1,13 @@
 export default function DealStatusChip({ status }: { status: string }) {
   const color =
     status === "ACTIVE"
-      ? "bg-green-100 text-green-700"
+      ? "bg-green-100 text-[var(--brand-green)]"
       : status === "CLOSED"
       ? "bg-gray-200 text-gray-600"
       : "bg-red-100 text-red-700";
 
   return (
-    <span className={`px-3 py-1 text-xs rounded-full ${color}`}>
+    <span className={`px-3 py-1 text-xs rounded ui-card-full ${color}`}>
       {status}
     </span>
   );

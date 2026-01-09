@@ -15,12 +15,12 @@ export default function VideoPreview({
       <video
         src={src}
         controls
-        className="rounded-lg max-h-[260px]"
+        className="rounded ui-card-lg max-h-[260px]"
       />
       {!locked && (
         <Button
           onClick={clear}
-          className="absolute top-2 right-2 bg-red-600 text-white w-7 h-7 rounded-full text-sm"
+          className="absolute top-2 right-2 bg-red-600 text-white w-7 h-7 rounded ui-card-full text-sm"
         >
           ×
         </Button>

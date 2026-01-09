@@ -61,7 +61,7 @@ export default function NotificationBell({ userId }: { userId: string }) {
           right: -6,
           background: "red",
           color: "white",
-          borderRadius: "50%",
+          border border-[var(--border-soft)]Radius: "50%",
           padding: "2px 6px",
           fontSize: 12
         }}>

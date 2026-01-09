@@ -18,7 +18,7 @@ export default function RealBell() {
         style={{
           fontSize: 22,
           background: "none",
-          border: "none",
+          border border-[var(--border-soft)]: "none",
           cursor: "pointer",
           animation: "bell-shake 2s infinite"
         }}

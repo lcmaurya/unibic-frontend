@@ -25,7 +25,7 @@ export default function PlatformDashboard() {
       </p>
 
       {/* ENGINE */}
-      <section className="bg-white rounded-xl p-3 mb-3 shadow">
+      <section className="bg-white rounded ui-card-xl p-3 mb-3 shadow">
         <h2 className="font-medium mb-1">Engine</h2>
         <p>Status: {engine.status}</p>
         <p>Mode: {engine.mode}</p>
@@ -33,21 +33,21 @@ export default function PlatformDashboard() {
       </section>
 
       {/* DEAL */}
-      <section className="bg-white rounded-xl p-3 mb-3 shadow">
+      <section className="bg-white rounded ui-card-xl p-3 mb-3 shadow">
         <h2 className="font-medium mb-1">Deal</h2>
         <p>Active: {deal.active ? "YES" : "NO"}</p>
         <p>Status: {deal.status}</p>
       </section>
 
 {/* TRUST */}
-<section className="bg-white rounded-xl p-3 mb-3 shadow">
+<section className="bg-white rounded ui-card-xl p-3 mb-3 shadow">
 <h2 className="font-medium mb-2">Trust</h2>
 <TrustBadge score={trust.score} />
 <TrustTimeline events={trust.flags || []} />
 </section>
 
 {/* MEDIA */}
-<section className="bg-white rounded-xl p-3 shadow">
+<section className="bg-white rounded ui-card-xl p-3 shadow">
 <h2 className="font-medium mb-2">Media Feed</h2>
 <MediaFeed items={[]} />
 </section>

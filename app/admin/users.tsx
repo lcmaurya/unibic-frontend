@@ -50,7 +50,7 @@ export default function AdminUsers() {
   return (
     <div>
       {users.map(u => (
-        <div key={u.id} style={{ border: "1px solid #ccc", margin: 8, padding: 8 }}>
+        <div key={u.id} style={{ border border-[var(--border-soft)]: "1px solid #ccc", margin: 8, padding: 8 }}>
           <b>{u.id}</b><br />
           Muted: {String(u.muted)}<br />
           Strikes: {u.strikeCount || 0}<br />

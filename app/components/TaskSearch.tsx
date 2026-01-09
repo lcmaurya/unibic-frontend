@@ -7,8 +7,8 @@ export default function TaskSearch() {
       style={{
         width: "100%",
         padding: 12,
-        borderRadius: 10,
-        border: "1px solid #e5e7eb",
+        border border-[var(--border-soft)]Radius: 10,
+        border border-[var(--border-soft)]: "1px solid #e5e7eb",
         marginBottom: 16,
         outline: "none",
       }}

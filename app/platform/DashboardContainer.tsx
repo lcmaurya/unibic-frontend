@@ -12,7 +12,7 @@ export default function DashboardContainer() {
     <div className="space-y-4">
 
       {/* TRUST SUMMARY */}
-      <section className="bg-white rounded-xl p-4 shadow flex items-center gap-4">
+      <section className="card card-hover rounded ui-card-xl p-4 shadow flex items-center gap-4">
         <div className="relative w-20 h-20">
           <svg width="80" height="80" viewBox="0 0 40 40">
             <circle
@@ -39,35 +39,35 @@ export default function DashboardContainer() {
 
         <div className="flex-1">
           <p className="text-lg font-semibold">Excellent</p>
-          <p className="text-xs text-gray-500">Trust score calculated</p>
+          <p className="text-xs text-muted">Trust score calculated</p>
         </div>
 
         <TrustShield score={trust.score} />
       </section>
 
       {/* RECENT ACTIVITY */}
-      <section className="bg-white rounded-xl p-4 shadow">
+      <section className="card card-hover rounded ui-card-xl p-4 shadow">
         <h3 className="font-medium mb-2">Recent Activity</h3>
         <TrustTimeline />
       </section>
 
       {/* QUICK STATS */}
       <section className="grid grid-cols-2 gap-3">
-        <div className="bg-white rounded-xl p-4 shadow text-center">
+        <div className="card card-hover rounded ui-card-xl p-4 shadow text-center">
           <p className="text-lg font-bold">5</p>
-          <p className="text-xs text-gray-500">Available Tasks</p>
+          <p className="text-xs text-muted">Available Tasks</p>
         </div>
-        <div className="bg-white rounded-xl p-4 shadow text-center">
+        <div className="card card-hover rounded ui-card-xl p-4 shadow text-center">
           <p className="text-lg font-bold">2</p>
-          <p className="text-xs text-gray-500">Help Requests</p>
+          <p className="text-xs text-muted">Help Requests</p>
         </div>
       </section>
 
       {/* ACTIONS */}
       <section className="grid grid-cols-3 gap-3">
-        <Button className="bg-white rounded-xl p-3 shadow text-xs">📦 Post Skill</Button>
-        <Button className="bg-white rounded-xl p-3 shadow text-xs">📍 Find Work</Button>
-        <Button className="bg-red-100 text-red-700 rounded-xl p-3 shadow text-xs">
+        <Button className="card card-hover rounded ui-card-xl p-3 shadow text-xs">📦 Post Skill</Button>
+        <Button className="card card-hover rounded ui-card-xl p-3 shadow text-xs">📍 Find Work</Button>
+        <Button className="bg-red-100 text-red-700 rounded ui-card-xl p-3 shadow text-xs">
           🆘 Request Help
         </Button>
       </section>

@@ -9,7 +9,7 @@ export default function TrustBadge({ score = 50 }: { score?: number }) {
     "${trustColor(score)}";
 
   return (
-    <div className={`inline-block px-3 py-1 text-white text-xs rounded-full ${color}`}>
+    <div className={`inline-block px-3 py-1 text-white text-xs rounded ui-card-full ${color}`}>
       Trust: {score}
     </div>
   );

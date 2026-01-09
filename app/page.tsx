@@ -37,9 +37,9 @@ export default async function Dashboard() {
       <Card className="border rounded ui-card-xl p-4 bg-white shadow">
         <h2 className="font-semibold text-lg">Trust Score (Live)</h2>
 
-        <Card className="text-3xl font-bold text-green-600">
+        <Card className="text-3xl font-bold text-[var(--brand-green)]">
         </Card>
-        <Card className="text-sm text-gray-500">Real-time from Firestore</Card>
+        <Card className="text-sm text-muted">Real-time from Firestore</Card>
       </Card>
 
       <Card className="border rounded ui-card-xl p-4 bg-white shadow">
@@ -54,7 +54,7 @@ export default async function Dashboard() {
 
       <Card className="border rounded ui-card-xl p-4 bg-white shadow">
         <h2 className="font-semibold text-lg">Community</h2>
-        <Card className="text-sm text-gray-500">Active community members</Card>
+        <Card className="text-sm text-muted">Active community members</Card>
         <a href="/community" className="text-blue-600">Open Community</a>
       </Card>
 

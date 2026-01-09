@@ -16,7 +16,7 @@ export default function TrustTimeline() {
       {trust.flags.map((f, i) => (
         <li key={i} className="flex justify-between">
           <span>{f}</span>
-          <span className="text-green-600">✓</span>
+          <span className="text-[var(--brand-green)]">✓</span>
         </li>
       ))}
     </ul>

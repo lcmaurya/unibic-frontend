@@ -24,8 +24,8 @@ export default function FilterChips({ active, onSelect }: Props) {
           onClick={() => onSelect(cat)}
           style={{
             padding: "6px 12px",
-            borderRadius: 999,
-            border: "none",
+            border border-[var(--border-soft)]Radius: 999,
+            border border-[var(--border-soft)]: "none",
             fontSize: 13,
             cursor: "pointer",
             background: active === cat ? "#22c55e" : "#f3f4f6",

@@ -22,7 +22,7 @@ export default function BottomNav() {
         right: 0,
         height: 56,
         background: "#ffffff",
-        borderTop: "1px solid #e5e7eb",
+        border border-[var(--border-soft)]Top: "1px solid #e5e7eb",
         display: "flex",
         justifyContent: "space-around",
         alignItems: "center",

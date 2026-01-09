@@ -8,7 +8,7 @@ export default function RecentActivityCard() {
   ];
 
   return (
-    <div style={{ background: "#fff", borderRadius: 12, padding: 14 }}>
+    <div style={{ background: "#fff", border border-[var(--border-soft)]Radius: 12, padding: 14 }}>
       <h4 style={{ marginBottom: 8 }}>Recent Activity:</h4>
       {activities.map((a, i) => (
         <div

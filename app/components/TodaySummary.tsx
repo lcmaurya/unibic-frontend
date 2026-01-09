@@ -5,7 +5,7 @@ export default function TodaySummary() {
     <div
       style={{
         background: "#e9f7f1",
-        borderRadius: 14,
+        border border-[var(--border-soft)]Radius: 14,
         padding: 14,
         marginTop: 14,
       }}
@@ -39,7 +39,7 @@ export default function TodaySummary() {
 const box = {
   flex: 1,
   background: "#fff",
-  borderRadius: 12,
+  border border-[var(--border-soft)]Radius: 12,
   padding: 10,
   textAlign: "center" as const,
 };

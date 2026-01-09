@@ -10,11 +10,11 @@ export default function SearchBar({ onSearch }: { onSearch: (q: string) => void 
         value={q}
         onChange={e => setQ(e.target.value.toLowerCase())}
         placeholder="Search skill (exact)"
-        className="flex-1 border rounded px-3 py-2"
+        className="flex-1 border rounded ui-card px-3 py-2"
       />
       <Button
         onClick={() => onSearch(q)}
-        className="bg-green-600 text-white px-4 rounded"
+        className="bg-green-600 text-white px-4 rounded ui-card"
       >
         Search
       </Button>

@@ -5,12 +5,12 @@ export default function TrustHero() {
   const trust = useTrustScore();
 
   return (
-    <section className="bg-white rounded-2xl p-4 shadow flex items-center justify-between">
+    <section className="card card-hover rounded ui-card-2xl p-4 shadow flex items-center justify-between">
       <div>
         <div className="text-2xl font-bold">{trust.score}/1000</div>
-        <div className="text-xs text-gray-500">Trust score calculated</div>
+        <div className="text-xs text-muted">Trust score calculated</div>
       </div>
-      <div className="w-12 h-12 rounded-full bg-green-100 animate-pulse flex items-center justify-center">
+      <div className="w-12 h-12 rounded ui-card-full bg-green-100 animate-pulse flex items-center justify-center">
         🛡️
       </div>
     </section>

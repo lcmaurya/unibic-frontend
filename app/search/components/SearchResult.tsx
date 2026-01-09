@@ -14,16 +14,16 @@ export default function SearchResult({ result }: { result: any }) {
       {list.map((item, i) => (
         <div
           key={i}
-          className="mt-4 border rounded-lg p-3 bg-white shadow"
+          className="mt-4 border rounded ui-card-lg p-3 bg-white shadow"
         >
           <p className="font-semibold">{item.title}</p>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-muted">
             Trust: {item.trust}/1000 · {item.distance}
           </p>
 
           <Button
             onClick={() => setOpen(true)}
-            className="mt-2 bg-green-600 text-white px-3 py-1 rounded text-sm"
+            className="mt-2 bg-green-600 text-white px-3 py-1 rounded ui-card text-sm"
           >
             View Provider
           </Button>

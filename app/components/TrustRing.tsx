@@ -26,7 +26,7 @@ export default function TrustRing({ score }: { score: number }) {
       </div>
       <div>
         <p className="font-semibold">Excellent</p>
-        <p className="text-xs text-gray-500">Trust score calculated</p>
+        <p className="text-xs text-muted">Trust score calculated</p>
       </div>
     </div>
   );

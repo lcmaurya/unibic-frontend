@@ -14,7 +14,7 @@ export default function PlatformDashboard() {
         Search (Live – Deals & Skills)
       </h1>
 
-      <div className="bg-white p-4 rounded-xl shadow">
+      <div className="card card-hover p-4 rounded ui-card-xl shadow">
         <SearchPage />
       </div>
     </main>

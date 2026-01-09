@@ -48,12 +48,12 @@ export default function DealsPage() {
         <input
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          className="border p-2 flex-1 rounded"
+          className="border border-[var(--border-soft)] p-2 flex-1 rounded ui-card"
           placeholder="New deal title"
         />
         <Button
           onClick={add}
-          className="bg-green-600 text-white px-4 rounded"
+          className="bg-green-600 text-white px-4 rounded ui-card"
         >
           Add
         </Button>
@@ -62,13 +62,13 @@ export default function DealsPage() {
       {deals.map(d => (
         <div
           key={d.id}
-          className="bg-white p-4 rounded shadow flex justify-between"
+          className="card card-hover p-4 rounded ui-card shadow flex justify-between"
         >
           <span>{d.title}</span>
           {d.status === "open" ? (
             <Button
               onClick={() => closeDeal(d.id)}
-              className="text-green-600"
+              className="text-[var(--brand-green)]"
             >
               close
             </Button>

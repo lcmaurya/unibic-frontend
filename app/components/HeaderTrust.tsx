@@ -10,7 +10,7 @@ export default function HeaderTrust() {
   return (
     <div className="flex items-center gap-2">
       <TrustBadge score={trust.score} />
-      <ShieldCheck className="text-green-600 animate-pulse" />
+      <ShieldCheck className="text-[var(--brand-green)] animate-pulse" />
     </div>
   );
 }

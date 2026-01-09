@@ -28,14 +28,14 @@ export default function NearbyTasks() {
 
   return (
     <section>
-<div className="mx-4 mb-3 bg-white rounded-xl p-4 shadow-sm">
+<div className="mx-4 mb-3 card card-hover rounded ui-card-xl p-4 shadow-sm">
   <div className="flex items-center justify-between">
     <div className="font-semibold text-base">💬 Deals Room</div>
-<Button className="text-xs text-green-600" onClick={() => router.push("/deals")}>
+<Button className="text-xs text-[var(--brand-green)]" onClick={() => router.push("/deals")}>
 Open
 </Button>
   </div>
-  <div className="text-xs text-gray-500 mt-1">Client ↔ Service Provider discussion</div>
+  <div className="text-xs text-muted mt-1">Client ↔ Service Provider discussion</div>
 </div>
       <h3 style={{ marginBottom: 10 }}>Nearby Tasks</h3>
 
@@ -47,7 +47,7 @@ Open
           key={i}
           style={{
             background: "#f0fdf4",
-            borderRadius: 16,
+            border border-[var(--border-soft)]Radius: 16,
             padding: 14,
             marginBottom: 12,
           }}

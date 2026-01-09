@@ -29,7 +29,7 @@ export default function TrustShield({ score = 0 }: { score: number }) {
       </svg>
 
       {/* Shield */}
-      <div className="absolute inset-0 flex items-center justify-center text-green-600 animate-pulse">
+      <div className="absolute inset-0 flex items-center justify-center text-[var(--brand-green)] animate-pulse">
         🛡️
       </div>
     </div>

@@ -17,7 +17,7 @@ export default function ImagePreviewZoom({ src }: { src: string }) {
   return (
     <div
       onClick={handleTap}
-      className="relative overflow-hidden rounded-lg border bg-white"
+      className="relative overflow-hidden rounded ui-card-lg border bg-white"
     >
       <img
         src={src}

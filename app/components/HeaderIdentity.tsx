@@ -5,7 +5,7 @@ export default function HeaderIdentity() {
     <div
       style={{
         padding: "14px 16px",
-        borderBottom: "1px solid #e5e7eb",
+        border border-[var(--border-soft)]Bottom: "1px solid #e5e7eb",
         textAlign: "center"
       }}
     >
