@@ -12,13 +12,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-green-50">
+<Header />
+
         {/* TOP BAR */}
         <header className="bg-white px-4 py-3 shadow-sm flex justify-between">
           <span className="font-bold">UNIBIC TRUST</span>
         </header>
 
         {/* PAGE CONTENT */}
-        <main className="pb-16" className="pb-20">{children}</main>
+        <main className="pb-16 pt-2" className="pb-20">{children}</main>
 <BottomNav />
 
 
