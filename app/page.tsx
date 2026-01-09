@@ -1,3 +1,4 @@
+import SkillsPreview from "@/app/components/SkillsPreview";
 import DealsPreview from "@/app/components/DealsPreview";
 import MediaFeedPreview from "@/app/components/MediaFeedPreview";
 import DealsPreview from "@/app/components/DealsPreview";
@@ -18,10 +19,12 @@ import TrustHero from '@/app/components/TrustHero'
 <TodaySummaryBlock />
 <NearbyTaskList />
 <DealsPreview />
+<SkillsPreview />
 <MediaFeedPreview />
 <SkillsPreview />
 <SkillsPreview />
 <DealsPreview />
+<SkillsPreview />
 <MediaFeedPreview />
 <SkillsPreview />
 <CommunityPreview />
@@ -38,22 +41,27 @@ export default function HomePage() {
       <main className="px-4 space-y-6 pb-24">
         <TrustHero />
 <DealsPreview />
+<SkillsPreview />
 <MediaFeedPreview />
 <DealsPreview />
+<SkillsPreview />
 <MediaFeedPreview />
 <SkillsPreview />
 <SkillsPreview />
 <DealsPreview />
+<SkillsPreview />
 <MediaFeedPreview />
 <SkillsPreview />
 <ActiveDealCard />
 <TodaySummaryBlock />
 <NearbyTaskList />
 <DealsPreview />
+<SkillsPreview />
 <MediaFeedPreview />
 <SkillsPreview />
 <SkillsPreview />
 <DealsPreview />
+<SkillsPreview />
 <MediaFeedPreview />
 <SkillsPreview />
 <CommunityPreview />
