@@ -1,3 +1,4 @@
+import { Card } from "@/app/components/ui/Card";
 
 
 
@@ -30,7 +31,7 @@ export default async function Dashboard() {
   // ✅ SAFE initial values (NO ReferenceError possible)
 
   return (
-    <main className="p-4 space-y-4 bg-green-50 min-h-screen">
+    <main className="grid grid-cols-1 md:grid-cols-2 gap-4" className="p-4 space-y-4 bg-green-50 min-h-screen">
       <h1 className="text-2xl font-bold">UNIBIC Dashboard · Pi Ready</h1>
 
       <Card className="border rounded-xl p-4 bg-white shadow">
