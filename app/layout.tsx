@@ -1,3 +1,4 @@
+import BottomNav from "@/app/components/ui/BottomNav";
 import Header from "@/app/components/ui/Header";
 import { Navbar } from "@/app/components/ui/Navbar";
 import "../styles/ui.css";
