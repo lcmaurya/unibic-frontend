@@ -1,3 +1,4 @@
+import DealsPreview from "@/app/components/DealsPreview";
 import MediaFeedPreview from "@/app/components/MediaFeedPreview";
 import DealsPreview from "@/app/components/DealsPreview";
 import SkillsPreview from "@/app/components/SkillsPreview";

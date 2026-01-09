@@ -1,25 +1,20 @@
 'use client'
 
 import Card from './Card'
-import { Button } from './ui/Button'
 
 export default function DealsPreview() {
   return (
-    <div className="space-y-3">
-      <div className="flex items-center justify-between">
-        <h3 className="text-sm font-semibold text-gray-800">Active Deals</h3>
-        <Button variant="secondary">View All</Button>
+    <Card className="space-y-2">
+      <h3 className="text-sm font-semibold text-gray-800">Active Deals</h3>
+
+      <div className="space-y-2">
+        <div className="h-10 bg-gray-100 rounded" />
+        <div className="h-10 bg-gray-100 rounded" />
       </div>
 
-      <Card>
-        <p className="text-sm font-medium">Phone Repair</p>
-        <p className="text-xs text-gray-500">In progress · High trust</p>
-      </Card>
-
-      <Card>
-        <p className="text-sm font-medium">Logo Design</p>
-        <p className="text-xs text-gray-500">Pending approval</p>
-      </Card>
-    </div>
+      <p className="text-xs text-gray-500">
+        Ongoing conversations & tasks
+      </p>
+    </Card>
   )
 }
