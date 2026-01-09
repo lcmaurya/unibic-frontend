@@ -13,7 +13,7 @@ export default function DealsPreview() {
       </div>
 
       <p className="text-xs text-gray-500">
-        Ongoing conversations & tasks
+        Ongoing or recently completed deals
       </p>
     </Card>
   )
