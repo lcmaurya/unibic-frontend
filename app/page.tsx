@@ -21,6 +21,8 @@ import DealsPreview from "@/app/components/DealsPreview";
 import NearbyTaskList from "@/app/components/NearbyTaskList";
 import TodaySummaryBlock from "@/app/components/TodaySummaryBlock";
 import ProfilePreview from "@/app/components/ProfilePreview";
+import DealsPreview from "@/app/components/DealsPreview";
+
 
 import ActiveDealCard from "@/app/components/ActiveDealCard";
 'use client'
@@ -31,9 +33,17 @@ import TrustHero from '@/app/components/TrustHero'
 <TodaySummaryBlock />
   <div className="mt-4">
     <ProfilePreview />
+  <div className="mt-4">
+    <DealsPreview />
+  </div>
+
+import DealsPreview from "@/app/components/DealsPreview";
+
   </div>
 
 import ProfilePreview from "@/app/components/ProfilePreview";
+import DealsPreview from "@/app/components/DealsPreview";
+
 
 <NearbyTaskList />
 <DealsPreview />
@@ -165,6 +175,8 @@ import ProfilePreview from "@/app/components/ProfilePreview";
 import DealStatus from '@/app/components/home/DealStatus'
 import TodaySummary from '@/app/components/TodaySummary'
 import ProfilePreview from "@/app/components/ProfilePreview";
+import DealsPreview from "@/app/components/DealsPreview";
+
 
 import NearbyTasks from '@/app/components/NearbyTasks'
 import BottomNav from '@/app/components/BottomNav'
@@ -349,9 +361,17 @@ export default function HomePage() {
 <TodaySummaryBlock />
   <div className="mt-4">
     <ProfilePreview />
+  <div className="mt-4">
+    <DealsPreview />
+  </div>
+
+import DealsPreview from "@/app/components/DealsPreview";
+
   </div>
 
 import ProfilePreview from "@/app/components/ProfilePreview";
+import DealsPreview from "@/app/components/DealsPreview";
+
 
 <NearbyTaskList />
 <DealsPreview />
@@ -484,9 +504,17 @@ import ProfilePreview from "@/app/components/ProfilePreview";
         <TodaySummary />
   <div className="mt-4">
     <ProfilePreview />
+  <div className="mt-4">
+    <DealsPreview />
+  </div>
+
+import DealsPreview from "@/app/components/DealsPreview";
+
   </div>
 
 import ProfilePreview from "@/app/components/ProfilePreview";
+import DealsPreview from "@/app/components/DealsPreview";
+
 
         <NearbyTasks />
       </main>
