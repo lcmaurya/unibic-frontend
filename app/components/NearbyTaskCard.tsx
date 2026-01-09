@@ -23,7 +23,7 @@ export default function NearbyTaskCard({
 
   return (
     <div
-      className="card-tap"
+      className="rounded-2xl bg-white shadow-sm p-4 card-tap"
       style={{
         background: "#ffffff",
         border border-[var(--border-soft)]Radius: 14,
@@ -52,7 +52,7 @@ export default function NearbyTaskCard({
         }}
       >
         <Button
-          className="button tap"
+          className="rounded-2xl bg-white shadow-sm p-4 button tap"
           onClick={() => router.push(`/task/${id}`)}
           style={{
             flex: 1,
@@ -67,7 +67,7 @@ export default function NearbyTaskCard({
         </Button>
 
         <Button
-          className="button tap"
+          className="rounded-2xl bg-white shadow-sm p-4 button tap"
           style={{
             flex: 1,
             padding: 10,
