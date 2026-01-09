@@ -1,28 +1,42 @@
 "use client";
 
+import Link from "next/link";
+
 export default function Header() {
   return (
-    <header className="w-full bg-white border-b px-4 py-3 flex items-center justify-between">
-      
-      {/* LEFT ICONS */}
-      <div className="flex items-center gap-3 text-green-600">
-        <span className="text-lg">🌐</span>
-        <span className="text-lg">📍</span>
-        <span className="text-lg">🔔</span>
-      </div>
-
-      {/* CENTER BRAND */}
-      <div className="flex flex-col items-center leading-tight">
-        <span className="text-xl font-extrabold text-green-600">
+    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b shadow-sm">
+      <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
+        
+        {/* Left: Brand */}
+        <Link href="/" className="font-semibold text-lg tracking-tight">
           UNIBIC
-        </span>
-        <span className="text-[11px] tracking-wide text-gray-500">
-          Trust
-        </span>
-      </div>
+        </Link>
 
-      {/* RIGHT PLACEHOLDER (balance) */}
-      <div className="w-[72px]" />
+        {/* Center: Nav */}
+        <nav className="hidden md:flex items-center gap-6 text-sm text-gray-600">
+          <Link href="/skills" className="hover:text-black">Skills</Link>
+          <Link href="/community" className="hover:text-black">Community</Link>
+          <Link href="/deals" className="hover:text-black">Deals</Link>
+        </nav>
+
+        {/* Right: Actions */}
+        <div className="flex items-center gap-3">
+          <Link
+            href="/post"
+            className="px-3 py-1.5 rounded-md text-sm bg-green-600 text-white hover:bg-green-700"
+          >
+            Post
+          </Link>
+
+          <Link
+            href="/profile"
+            className="px-3 py-1.5 rounded-md text-sm border hover:bg-gray-100"
+          >
+            Profile
+          </Link>
+        </div>
+
+      </div>
     </header>
   );
 }

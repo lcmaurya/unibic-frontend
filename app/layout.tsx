@@ -23,7 +23,7 @@ export default function RootLayout({
         </header>
 
         {/* PAGE CONTENT */}
-        <main className="pb-16 pt-2" className="pb-20">{children}</main>
+        <main className="pb-16 pt-2" className="pb-20"><main className="pt-14">{children}</main></main>
 <BottomNav />
 
 
