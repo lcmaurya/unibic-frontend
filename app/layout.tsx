@@ -1,3 +1,4 @@
+import { Navbar } from "@/app/components/ui/Navbar";
 import "../styles/ui.css";
 import Header from "@/app/components/Header";
 
