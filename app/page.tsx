@@ -20,6 +20,8 @@ import CommunityPreview from "@/app/components/CommunityPreview";
 import DealsPreview from "@/app/components/DealsPreview";
 import NearbyTaskList from "@/app/components/NearbyTaskList";
 import TodaySummaryBlock from "@/app/components/TodaySummaryBlock";
+import ProfilePreview from "@/app/components/ProfilePreview";
+
 import ActiveDealCard from "@/app/components/ActiveDealCard";
 'use client'
 
@@ -27,6 +29,12 @@ import Header from '@/app/components/Header'
 import TrustHero from '@/app/components/TrustHero'
 <ActiveDealCard />
 <TodaySummaryBlock />
+  <div className="mt-4">
+    <ProfilePreview />
+  </div>
+
+import ProfilePreview from "@/app/components/ProfilePreview";
+
 <NearbyTaskList />
 <DealsPreview />
 <CommunityPreview />
@@ -156,6 +164,8 @@ import TrustHero from '@/app/components/TrustHero'
 <CommunityPreview />
 import DealStatus from '@/app/components/home/DealStatus'
 import TodaySummary from '@/app/components/TodaySummary'
+import ProfilePreview from "@/app/components/ProfilePreview";
+
 import NearbyTasks from '@/app/components/NearbyTasks'
 import BottomNav from '@/app/components/BottomNav'
 
@@ -337,6 +347,12 @@ export default function HomePage() {
 <CommunityPreview />
 <ActiveDealCard />
 <TodaySummaryBlock />
+  <div className="mt-4">
+    <ProfilePreview />
+  </div>
+
+import ProfilePreview from "@/app/components/ProfilePreview";
+
 <NearbyTaskList />
 <DealsPreview />
 <CommunityPreview />
@@ -466,6 +482,12 @@ export default function HomePage() {
 <CommunityPreview />
         <DealStatus />
         <TodaySummary />
+  <div className="mt-4">
+    <ProfilePreview />
+  </div>
+
+import ProfilePreview from "@/app/components/ProfilePreview";
+
         <NearbyTasks />
       </main>
 
