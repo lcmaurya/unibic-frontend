@@ -1,3 +1,4 @@
+import "../styles/ui.css";
 import Header from "@/app/components/Header";
 
 import './globals.css';

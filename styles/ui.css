@@ -1,0 +1,10 @@
+/* UI POLISH TOKENS */
+:root{
+  --radius: 14px;
+  --card: #ffffff;
+  --muted: #f3f4f6;
+  --brand: #22c55e;
+}
+.card{border-radius:var(--radius); background:var(--card)}
+.muted{background:var(--muted)}
+.btn{border-radius:12px}
