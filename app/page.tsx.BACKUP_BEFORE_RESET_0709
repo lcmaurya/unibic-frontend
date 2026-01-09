@@ -1,6 +1,0 @@
-        <TrustRing score={650} max={1000} label="--" />
-        <AnimatedShield />
-      </div>
-    </main>
-  );
-}
