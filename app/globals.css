@@ -1,3 +1,4 @@
+body { background: var(--bg-page); color: var(--text-primary); }
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -247,4 +248,21 @@
 
 .ui-inline-md > * + * {
   margin-left: 1rem;
+}
+
+/* ===== UNIBIC COLOR SYSTEM ===== */
+:root {
+  --brand-green: #16a34a;
+  --brand-green-dark: #15803d;
+  --brand-green-soft: #dcfce7;
+
+  --brand-blue: #2563eb;
+  --brand-gray: #64748b;
+
+  --bg-page: #f8fafc;
+  --bg-card: #ffffff;
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --border-soft: #e5e7eb;
 }

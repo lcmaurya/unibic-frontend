@@ -12,10 +12,10 @@ export function Button({
   onClick?: () => void;
 }) {
   const base =
-    "px-4 py-2 rounded-lg text-sm font-medium transition focus:outline-none";
+    "px-4 py-2 rounded ui-card-lg text-sm font-medium transition focus:outline-none";
 
   const styles: Record<Variant, string> = {
-    primary: "bg-green-600 text-white hover:bg-green-700",
+    primary: "bg-[var(--brand-green)] text-white hover:bg-[var(--brand-green-dark)]",
     secondary: "bg-gray-200 text-gray-800 hover:bg-gray-300",
     danger: "bg-red-500 text-white hover:bg-red-600",
   };
