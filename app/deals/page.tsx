@@ -41,7 +41,7 @@ export default function DealsPage() {
 
   return (
     <main className="p-4 space-y-4">
-      <h1 className="text-xl font-semibold">Deals</h1>
+      <h1 className="text-lg font-semibold">Deals</h1>
 
       <div className="flex gap-2">
         <input

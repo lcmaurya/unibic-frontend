@@ -14,7 +14,7 @@ export default function MediaFeed() {
 
   if (media.length === 0) {
     return (
-      <p className="text-sm text-gray-400 mt-2">
+      <p className="text-xs text-gray-400 mt-2">
         No media uploaded yet
       </p>
     );

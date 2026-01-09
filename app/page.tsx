@@ -33,34 +33,34 @@ export default async function Dashboard() {
     <main className="p-4 space-y-4 bg-green-50 min-h-screen">
       <h1 className="text-2xl font-bold">UNIBIC Dashboard · Pi Ready</h1>
 
-      <div className="border rounded-xl p-4 bg-white shadow">
+      <Card className="border rounded-xl p-4 bg-white shadow">
         <h2 className="font-semibold text-lg">Trust Score (Live)</h2>
 
-        <div className="text-3xl font-bold text-green-600">
-        </div>
-        <div className="text-sm text-gray-500">Real-time from Firestore</div>
-      </div>
+        <Card className="text-3xl font-bold text-green-600">
+        </Card>
+        <Card className="text-sm text-gray-500">Real-time from Firestore</Card>
+      </Card>
 
-      <div className="border rounded-xl p-4 bg-white shadow">
+      <Card className="border rounded-xl p-4 bg-white shadow">
         <h2 className="font-semibold text-lg">Deals</h2>
         <a href="/deals" className="text-blue-600">Open Deals</a>
-      </div>
+      </Card>
 
-      <div className="border rounded-xl p-4 bg-white shadow">
+      <Card className="border rounded-xl p-4 bg-white shadow">
         <h2 className="font-semibold text-lg">Skills</h2>
         <a href="/skills" className="text-blue-600">Find Skills</a>
-      </div>
+      </Card>
 
-      <div className="border rounded-xl p-4 bg-white shadow">
+      <Card className="border rounded-xl p-4 bg-white shadow">
         <h2 className="font-semibold text-lg">Community</h2>
-        <div className="text-sm text-gray-500">Active community members</div>
+        <Card className="text-sm text-gray-500">Active community members</Card>
         <a href="/community" className="text-blue-600">Open Community</a>
-      </div>
+      </Card>
 
-      <div className="border rounded-xl p-4 bg-white shadow">
+      <Card className="border rounded-xl p-4 bg-white shadow">
         <h4 className="font-semibold">Profile</h4>
         <a href="/profile" className="text-blue-600">Open Profile</a>
-      </div>
+      </Card>
     </main>
   );
 }

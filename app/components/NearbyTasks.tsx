@@ -30,7 +30,7 @@ export default function NearbyTasks() {
 <div className="mx-4 mb-3 bg-white rounded-xl p-4 shadow-sm">
   <div className="flex items-center justify-between">
     <div className="font-semibold text-base">💬 Deals Room</div>
-<button className="text-sm text-green-600" onClick={() => router.push("/deals")}>
+<button className="text-xs text-green-600" onClick={() => router.push("/deals")}>
 Open
 </button>
   </div>

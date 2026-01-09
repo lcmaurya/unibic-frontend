@@ -10,7 +10,7 @@ export default function PlatformDashboard() {
 
   return (
     <main className="p-4">
-      <h1 className="text-xl font-semibold mb-4">
+      <h1 className="text-lg font-semibold mb-4">
         Search (Live – Deals & Skills)
       </h1>
 

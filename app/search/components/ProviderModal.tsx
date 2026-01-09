@@ -7,8 +7,8 @@ export default function ProviderModal({ data, onClose }: any) {
   if (!data) return null;
 
   return (
-    <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
-      <div className="bg-white rounded-lg p-4 w-[90%] max-w-sm">
+    <Card className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
+      <Card className="bg-white rounded-lg p-4 w-[90%] max-w-sm">
         <h3 className="font-bold text-lg">{data.title}</h3>
         <p className="text-sm mt-1">
           Trust Score: <b>{data.trust}/1000</b>
@@ -30,7 +30,7 @@ export default function ProviderModal({ data, onClose }: any) {
         >
           Close
         </button>
-      </div>
-    </div>
+      </Card>
+    </Card>
   );
 }

@@ -38,7 +38,7 @@ export default function DashboardContainer() {
 
         <div className="flex-1">
           <p className="text-lg font-semibold">Excellent</p>
-          <p className="text-sm text-gray-500">Trust score calculated</p>
+          <p className="text-xs text-gray-500">Trust score calculated</p>
         </div>
 
         <TrustShield score={trust.score} />
@@ -53,20 +53,20 @@ export default function DashboardContainer() {
       {/* QUICK STATS */}
       <section className="grid grid-cols-2 gap-3">
         <div className="bg-white rounded-xl p-4 shadow text-center">
-          <p className="text-xl font-bold">5</p>
-          <p className="text-sm text-gray-500">Available Tasks</p>
+          <p className="text-lg font-bold">5</p>
+          <p className="text-xs text-gray-500">Available Tasks</p>
         </div>
         <div className="bg-white rounded-xl p-4 shadow text-center">
-          <p className="text-xl font-bold">2</p>
-          <p className="text-sm text-gray-500">Help Requests</p>
+          <p className="text-lg font-bold">2</p>
+          <p className="text-xs text-gray-500">Help Requests</p>
         </div>
       </section>
 
       {/* ACTIONS */}
       <section className="grid grid-cols-3 gap-3">
-        <button className="bg-white rounded-xl p-3 shadow text-sm">📦 Post Skill</button>
-        <button className="bg-white rounded-xl p-3 shadow text-sm">📍 Find Work</button>
-        <button className="bg-red-100 text-red-700 rounded-xl p-3 shadow text-sm">
+        <button className="bg-white rounded-xl p-3 shadow text-xs">📦 Post Skill</button>
+        <button className="bg-white rounded-xl p-3 shadow text-xs">📍 Find Work</button>
+        <button className="bg-red-100 text-red-700 rounded-xl p-3 shadow text-xs">
           🆘 Request Help
         </button>
       </section>
