@@ -1,3 +1,4 @@
+import Header from "@/app/components/ui/Header";
 import { Navbar } from "@/app/components/ui/Navbar";
 import "../styles/ui.css";
 import Header from "@/app/components/Header";
@@ -12,6 +13,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-green-50">
+  <Header />
+
 <Header />
 
         {/* TOP BAR */}
